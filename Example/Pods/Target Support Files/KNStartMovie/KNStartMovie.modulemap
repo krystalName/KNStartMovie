@@ -1,0 +1,6 @@
+framework module KNStartMovie {
+  umbrella header "KNStartMovie-umbrella.h"
+
+  export *
+  module * { export * }
+}

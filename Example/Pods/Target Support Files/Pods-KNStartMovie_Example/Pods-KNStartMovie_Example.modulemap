@@ -1,0 +1,6 @@
+framework module Pods_KNStartMovie_Example {
+  umbrella header "Pods-KNStartMovie_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

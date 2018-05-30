@@ -1,0 +1,22 @@
+{
+  "name": "KNStartMovie",
+  "version": "0.1.0",
+  "summary": "A short description of KNStartMovie.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/992275294@qq.com/KNStartMovie",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "992275294@qq.com": "992275294@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/992275294@qq.com/KNStartMovie.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KNStartMovie/Classes/**/*"
+}

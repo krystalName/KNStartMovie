@@ -1,0 +1,16 @@
+PODS:
+  - KNStartMovie (0.1.0)
+
+DEPENDENCIES:
+  - KNStartMovie (from `../`)
+
+EXTERNAL SOURCES:
+  KNStartMovie:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KNStartMovie: c2979ad74b4248cf858a684ac733cebd8136f749
+
+PODFILE CHECKSUM: e9788327beef57bc09ad0b75967875327e13a3f7
+
+COCOAPODS: 1.5.0
