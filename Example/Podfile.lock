@@ -1,5 +1,5 @@
 PODS:
-  - KNStartMovie (0.1.0)
+  - KNStartMovie (0.3.0)
 
 DEPENDENCIES:
   - KNStartMovie (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KNStartMovie: 0d139bf2c3beb8e762fc2466b8e5b7e57361d3a6
+  KNStartMovie: 651be16a60522d46835ae309cccceccf7babb147
 
 PODFILE CHECKSUM: e9788327beef57bc09ad0b75967875327e13a3f7
 
