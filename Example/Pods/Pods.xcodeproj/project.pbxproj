@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		003AB40D2CE5E73B730A9D26E57FD7AD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D14F8EBE7C4DD17A725A4BBA82E5F020 /* AVFoundation.framework */; };
 		00F8E21B792191F9722BAC4CE9B8FA8A /* Pods-KNStartMovie_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E29994D2479B61B690CD7274C5654C7 /* Pods-KNStartMovie_Tests-dummy.m */; };
-		16A48B67159644373D942CB9911144D8 /* KNMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3501C41530C644803E84BF8D24067D4B /* KNMovieViewController.m */; };
+		0E9D5190BA656E0AA46ADAAF473F46CD /* KNStartMovie-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F36C8328B6AFEC42BAE7C3215C803D /* KNStartMovie-dummy.m */; };
+		1542ED6A4E1A72E8E105C37F888E734B /* KNMovieViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B3220CF01EBAE37445D6456E3192327C /* KNMovieViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CEC3DA18F2691B5FF95A58E38682162 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFAEE8E8E810561DFB204AFBBA2947D5 /* UIKit.framework */; };
+		44960654B00F2AEEC438C9DD52216E64 /* KNMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38205749B0A2CB3A12C91D81E5B7E97A /* KNMovieViewController.m */; };
 		71D2803CE69FBDB7C430E5500D99011B /* Pods-KNStartMovie_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 656E36B7F7D5813B273667BF7D97F065 /* Pods-KNStartMovie_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A9538288A01746AB14BAF500A727911 /* Pods-KNStartMovie_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BEAACE336BA3C0B60E110B32C875925 /* Pods-KNStartMovie_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B41B3FE8072DE63A25B7E9F36E0F26D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		BB1483A62C78208A9E292A18B348B4E2 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAAA06AD04F27D50F84C889E1A9488A /* ReplaceMe.m */; };
+		B41B3FE8072DE63A25B7E9F36E0F26D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A53A271783B39118A612DCA9C79369E0 /* Foundation.framework */; };
 		C53777B9A3A51F0F745B5834FE254189 /* Pods-KNStartMovie_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F679C6A688396A369B9F3D6E39862B88 /* Pods-KNStartMovie_Example-dummy.m */; };
-		EC9AA6B196BA1F460B2521336C71FF91 /* KNStartMovie-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7065F1FE2E69E4B695678A794E523EB /* KNStartMovie-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ED78674FDFAAFEB4EB067F197172FDCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		F436819C59C2B2EF78A6CF4046A8D34D /* KNStartMovie-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DBDB88066DDE121EE66F08AF11F2899 /* KNStartMovie-dummy.m */; };
-		FBA5269ECC56E932B4D99B36C1201FDC /* KNMovieViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9765FC1BD50F4125916058D56E25EAAD /* KNMovieViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF4F39C30D8725F4741AC34B17E71553 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C5BA31358382CB6B274C61C756983EFD /* KNStartMovie-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EBCE41B6A546B0BD32326DBC66300F66 /* KNStartMovie-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA96FB8A529912AD2C93D2C87ECC00FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A53A271783B39118A612DCA9C79369E0 /* Foundation.framework */; };
+		ED78674FDFAAFEB4EB067F197172FDCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A53A271783B39118A612DCA9C79369E0 /* Foundation.framework */; };
+		FBDBA8DBDA2ECCA670CC5F1329334D60 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53FBB6395A209B9440648AD0AE96A9CE /* AVKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,45 +35,47 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 043ED94D050B80A22FD203F1A30C850C;
+			remoteGlobalIDString = D9FE522E63A055D9F8281F7949E6CA61;
 			remoteInfo = KNStartMovie;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1CAAA06AD04F27D50F84C889E1A9488A /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = KNStartMovie/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		1DBDB88066DDE121EE66F08AF11F2899 /* KNStartMovie-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KNStartMovie-dummy.m"; sourceTree = "<group>"; };
+		2C001A2AE707F5C90295C68AB6A4098D /* KNStartMovie-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KNStartMovie-prefix.pch"; sourceTree = "<group>"; };
 		2E29994D2479B61B690CD7274C5654C7 /* Pods-KNStartMovie_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KNStartMovie_Tests-dummy.m"; sourceTree = "<group>"; };
 		33241904E873941757C92C4A95DAA3F4 /* Pods_KNStartMovie_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KNStartMovie_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3501C41530C644803E84BF8D24067D4B /* KNMovieViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KNMovieViewController.m; sourceTree = "<group>"; };
+		38205749B0A2CB3A12C91D81E5B7E97A /* KNMovieViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KNMovieViewController.m; path = KNStartMovie/Classes/KNMovieView/KNMovieViewController.m; sourceTree = "<group>"; };
+		4717C8EDA085371DD452F8E7F819BF99 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4857D32AFCD1509F7DD39D10F3AC9B02 /* Pods-KNStartMovie_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KNStartMovie_Tests-resources.sh"; sourceTree = "<group>"; };
 		4CB7401CC9687D347DE5889258F0A1B4 /* Pods_KNStartMovie_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KNStartMovie_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4EE4085D1E899815ABA8AFA12A06CAF1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		53FBB6395A209B9440648AD0AE96A9CE /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AVKit.framework; sourceTree = DEVELOPER_DIR; };
 		5535FDBFA7A221529F049503E8663417 /* Pods-KNStartMovie_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KNStartMovie_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5BEAACE336BA3C0B60E110B32C875925 /* Pods-KNStartMovie_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KNStartMovie_Example-umbrella.h"; sourceTree = "<group>"; };
 		634D35139F9EB780948958FBC9D0C415 /* Pods-KNStartMovie_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KNStartMovie_Example-resources.sh"; sourceTree = "<group>"; };
 		656E36B7F7D5813B273667BF7D97F065 /* Pods-KNStartMovie_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KNStartMovie_Tests-umbrella.h"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6F8D217AF84A2BC6B9EBCA9216638B71 /* KNStartMovie.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KNStartMovie.modulemap; sourceTree = "<group>"; };
+		6B2F4A825F5762DCEEC5BEFEB33847AC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6E47420B32F757AE84018A69031D1236 /* KNStartMovie.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KNStartMovie.xcconfig; sourceTree = "<group>"; };
 		73C6C441F8F7C56C26365283E39CE8C3 /* KNStartMovie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KNStartMovie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78CD49F7E1A1880CB0BF74CC1EFD1C65 /* Pods-KNStartMovie_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KNStartMovie_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		7C3AD92076B221479DA40CA9663C4D9B /* Pods-KNStartMovie_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KNStartMovie_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7DC002A6B46F9D883AA0581420E56AC4 /* KNStartMovie.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KNStartMovie.xcconfig; sourceTree = "<group>"; };
 		83C8A08FFECB999F15EA0BE31D947772 /* Pods-KNStartMovie_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KNStartMovie_Example.modulemap"; sourceTree = "<group>"; };
 		8AE38A0E04ABEAFD37C536DBA460F4E6 /* Pods-KNStartMovie_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KNStartMovie_Tests.modulemap"; sourceTree = "<group>"; };
-		8ED31E421627642638A981E36E72AE52 /* KNStartMovie.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = KNStartMovie.podspec; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		96B039C4E2C7465133BDEAD5BA701EFC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		9765FC1BD50F4125916058D56E25EAAD /* KNMovieViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KNMovieViewController.h; sourceTree = "<group>"; };
+		9E02B1AAAD317E9CE60331643702BE7C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2AD8EDF90DBFE55549EA709FCEC1D68 /* KNStartMovie.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KNStartMovie.modulemap; sourceTree = "<group>"; };
 		A39447845629B42B735C66E7F489D615 /* Pods-KNStartMovie_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KNStartMovie_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A53A271783B39118A612DCA9C79369E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		A83361F19D4D0D70B27F759C7D671F66 /* Pods-KNStartMovie_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KNStartMovie_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A8ECEFD4E579357F7C318FDDB461EDBC /* Pods-KNStartMovie_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KNStartMovie_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B7065F1FE2E69E4B695678A794E523EB /* KNStartMovie-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KNStartMovie-umbrella.h"; sourceTree = "<group>"; };
-		B9F2B1DD2B5519F7038B04B24D35D4F2 /* KNStartMovie-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KNStartMovie-prefix.pch"; sourceTree = "<group>"; };
+		B3220CF01EBAE37445D6456E3192327C /* KNMovieViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KNMovieViewController.h; path = KNStartMovie/Classes/KNMovieView/KNMovieViewController.h; sourceTree = "<group>"; };
+		C4F36C8328B6AFEC42BAE7C3215C803D /* KNStartMovie-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KNStartMovie-dummy.m"; sourceTree = "<group>"; };
 		C76AD9EA00756B9B72747D4E792BC353 /* Pods-KNStartMovie_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KNStartMovie_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		CFD83693B4CECA2DA698BBA5A7D2CCC1 /* Pods-KNStartMovie_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KNStartMovie_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D14F8EBE7C4DD17A725A4BBA82E5F020 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		D6F7F7AD34A19EE41FD5F47DA9C57692 /* KNStartMovie.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = KNStartMovie.podspec; sourceTree = "<group>"; };
 		DC600332550ADEE5F6BD698B2CBC4FA7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E48B83BA78A7E5F3857C4FE24B27DC2F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBCE41B6A546B0BD32326DBC66300F66 /* KNStartMovie-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KNStartMovie-umbrella.h"; sourceTree = "<group>"; };
+		EFAEE8E8E810561DFB204AFBBA2947D5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		EFEA518F6AD5467885E563D1416C909F /* Pods-KNStartMovie_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KNStartMovie_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F11329D11BA56AE6C9935232970EE96F /* Pods-KNStartMovie_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KNStartMovie_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F679C6A688396A369B9F3D6E39862B88 /* Pods-KNStartMovie_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KNStartMovie_Example-dummy.m"; sourceTree = "<group>"; };
@@ -87,19 +91,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		48D906C0435CF436D4BE2AD30D5886B4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FF4F39C30D8725F4741AC34B17E71553 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BCBD9D64DEA0E21F275380AB1D524291 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				ED78674FDFAAFEB4EB067F197172FDCF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E53B9048F21573C5CC800BFF50C4AC5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				003AB40D2CE5E73B730A9D26E57FD7AD /* AVFoundation.framework in Frameworks */,
+				FBDBA8DBDA2ECCA670CC5F1329334D60 /* AVKit.framework in Frameworks */,
+				CA96FB8A529912AD2C93D2C87ECC00FC /* Foundation.framework in Frameworks */,
+				1CEC3DA18F2691B5FF95A58E38682162 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,22 +131,56 @@
 			path = "Target Support Files/Pods-KNStartMovie_Tests";
 			sourceTree = "<group>";
 		};
-		0825B2B9A6C043F391FD4DDC3D036A71 /* KNMovieView */ = {
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9765FC1BD50F4125916058D56E25EAAD /* KNMovieViewController.h */,
-				3501C41530C644803E84BF8D24067D4B /* KNMovieViewController.m */,
+				FEFE7852C1F3CA8B0E4A29C9ACB51BB4 /* iOS */,
 			);
-			name = KNMovieView;
-			path = KNStartMovie/Classes/KNMovieView;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		15E29B378063F92E7F05738F6F3F3836 /* KNStartMovie */ = {
+			isa = PBXGroup;
+			children = (
+				B3220CF01EBAE37445D6456E3192327C /* KNMovieViewController.h */,
+				38205749B0A2CB3A12C91D81E5B7E97A /* KNMovieViewController.m */,
+				5930CA2D5E5F026BA73F0A45CA92C5EE /* Pod */,
+				37F327DB2470F97B25A72A06CECEEAD1 /* Support Files */,
+			);
+			name = KNStartMovie;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		37F327DB2470F97B25A72A06CECEEAD1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E02B1AAAD317E9CE60331643702BE7C /* Info.plist */,
+				A2AD8EDF90DBFE55549EA709FCEC1D68 /* KNStartMovie.modulemap */,
+				6E47420B32F757AE84018A69031D1236 /* KNStartMovie.xcconfig */,
+				C4F36C8328B6AFEC42BAE7C3215C803D /* KNStartMovie-dummy.m */,
+				2C001A2AE707F5C90295C68AB6A4098D /* KNStartMovie-prefix.pch */,
+				EBCE41B6A546B0BD32326DBC66300F66 /* KNStartMovie-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KNStartMovie";
 			sourceTree = "<group>";
 		};
 		41BC457BBEEFF7E7E1445DCA5ACE8EB3 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B980761B30910688A50D47F771069725 /* KNStartMovie */,
+				15E29B378063F92E7F05738F6F3F3836 /* KNStartMovie */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5930CA2D5E5F026BA73F0A45CA92C5EE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D6F7F7AD34A19EE41FD5F47DA9C57692 /* KNStartMovie.podspec */,
+				6B2F4A825F5762DCEEC5BEFEB33847AC /* LICENSE */,
+				4717C8EDA085371DD452F8E7F819BF99 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		618C587FD55ED43791DF5456C1A61805 /* Targets Support Files */ = {
@@ -166,52 +207,10 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				41BC457BBEEFF7E7E1445DCA5ACE8EB3 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
 				6759C2CFE263F92C6BAB9D07181A0E89 /* Products */,
 				618C587FD55ED43791DF5456C1A61805 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		B15E475F24859C790459C48187FADABB /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E48B83BA78A7E5F3857C4FE24B27DC2F /* Info.plist */,
-				6F8D217AF84A2BC6B9EBCA9216638B71 /* KNStartMovie.modulemap */,
-				7DC002A6B46F9D883AA0581420E56AC4 /* KNStartMovie.xcconfig */,
-				1DBDB88066DDE121EE66F08AF11F2899 /* KNStartMovie-dummy.m */,
-				B9F2B1DD2B5519F7038B04B24D35D4F2 /* KNStartMovie-prefix.pch */,
-				B7065F1FE2E69E4B695678A794E523EB /* KNStartMovie-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/KNStartMovie";
-			sourceTree = "<group>";
-		};
-		B980761B30910688A50D47F771069725 /* KNStartMovie */ = {
-			isa = PBXGroup;
-			children = (
-				1CAAA06AD04F27D50F84C889E1A9488A /* ReplaceMe.m */,
-				0825B2B9A6C043F391FD4DDC3D036A71 /* KNMovieView */,
-				F4DD3C990387E5366E2D39FCCA6758A3 /* Pod */,
-				B15E475F24859C790459C48187FADABB /* Support Files */,
-			);
-			name = KNStartMovie;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		F2D5F1722FBC6E7E0ECF316828593EE5 /* Pods-KNStartMovie_Example */ = {
@@ -232,25 +231,26 @@
 			path = "Target Support Files/Pods-KNStartMovie_Example";
 			sourceTree = "<group>";
 		};
-		F4DD3C990387E5366E2D39FCCA6758A3 /* Pod */ = {
+		FEFE7852C1F3CA8B0E4A29C9ACB51BB4 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				8ED31E421627642638A981E36E72AE52 /* KNStartMovie.podspec */,
-				96B039C4E2C7465133BDEAD5BA701EFC /* LICENSE */,
-				4EE4085D1E899815ABA8AFA12A06CAF1 /* README.md */,
+				D14F8EBE7C4DD17A725A4BBA82E5F020 /* AVFoundation.framework */,
+				53FBB6395A209B9440648AD0AE96A9CE /* AVKit.framework */,
+				A53A271783B39118A612DCA9C79369E0 /* Foundation.framework */,
+				EFAEE8E8E810561DFB204AFBBA2947D5 /* UIKit.framework */,
 			);
-			name = Pod;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2E1F2A377E135798D65A8D31C815AB48 /* Headers */ = {
+		135FCB70FF5A4CD15E7A6B045AE16179 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBA5269ECC56E932B4D99B36C1201FDC /* KNMovieViewController.h in Headers */,
-				EC9AA6B196BA1F460B2521336C71FF91 /* KNStartMovie-umbrella.h in Headers */,
+				1542ED6A4E1A72E8E105C37F888E734B /* KNMovieViewController.h in Headers */,
+				C5BA31358382CB6B274C61C756983EFD /* KNStartMovie-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,23 +273,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		043ED94D050B80A22FD203F1A30C850C /* KNStartMovie */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A89079D151957E328F32AD9B9C95B243 /* Build configuration list for PBXNativeTarget "KNStartMovie" */;
-			buildPhases = (
-				D5178B81D6FB71A98D3E2E16ADE9FFF8 /* Sources */,
-				48D906C0435CF436D4BE2AD30D5886B4 /* Frameworks */,
-				2E1F2A377E135798D65A8D31C815AB48 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = KNStartMovie;
-			productName = KNStartMovie;
-			productReference = 73C6C441F8F7C56C26365283E39CE8C3 /* KNStartMovie.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		B9CC6A0310D5A15DD5CE1C11AD0E77D4 /* Pods-KNStartMovie_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82005AE40C76715644CBA0B8EE810CF0 /* Build configuration list for PBXNativeTarget "Pods-KNStartMovie_Tests" */;
@@ -326,6 +309,23 @@
 			productReference = 33241904E873941757C92C4A95DAA3F4 /* Pods_KNStartMovie_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		D9FE522E63A055D9F8281F7949E6CA61 /* KNStartMovie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DBBFAFC20E77EC1E73898D6373B111B /* Build configuration list for PBXNativeTarget "KNStartMovie" */;
+			buildPhases = (
+				ABDFD00F70BCD736F470BF81DE11B71F /* Sources */,
+				E53B9048F21573C5CC800BFF50C4AC5D /* Frameworks */,
+				135FCB70FF5A4CD15E7A6B045AE16179 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KNStartMovie;
+			productName = KNStartMovie;
+			productReference = 73C6C441F8F7C56C26365283E39CE8C3 /* KNStartMovie.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -347,7 +347,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				043ED94D050B80A22FD203F1A30C850C /* KNStartMovie */,
+				D9FE522E63A055D9F8281F7949E6CA61 /* KNStartMovie */,
 				BA1A685471F0DC25B5FF593D9872A252 /* Pods-KNStartMovie_Example */,
 				B9CC6A0310D5A15DD5CE1C11AD0E77D4 /* Pods-KNStartMovie_Tests */,
 			);
@@ -363,21 +363,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ABDFD00F70BCD736F470BF81DE11B71F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44960654B00F2AEEC438C9DD52216E64 /* KNMovieViewController.m in Sources */,
+				0E9D5190BA656E0AA46ADAAF473F46CD /* KNStartMovie-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D3F78DDF839C8275D0E77D962394F062 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C53777B9A3A51F0F745B5834FE254189 /* Pods-KNStartMovie_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D5178B81D6FB71A98D3E2E16ADE9FFF8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				16A48B67159644373D942CB9911144D8 /* KNMovieViewController.m in Sources */,
-				F436819C59C2B2EF78A6CF4046A8D34D /* KNStartMovie-dummy.m in Sources */,
-				BB1483A62C78208A9E292A18B348B4E2 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,7 +386,7 @@
 		2775D668E8E2FB7E33932CFF427F10D4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KNStartMovie;
-			target = 043ED94D050B80A22FD203F1A30C850C /* KNStartMovie */;
+			target = D9FE522E63A055D9F8281F7949E6CA61 /* KNStartMovie */;
 			targetProxy = 711F09940F247676867068E27E84EA48 /* PBXContainerItemProxy */;
 		};
 		A297659A249FCE7604FF76DAC5505719 /* PBXTargetDependency */ = {
@@ -465,39 +464,9 @@
 			};
 			name = Debug;
 		};
-		3E8EAA3113E1FC7149D6DBD49EE64D36 /* Debug */ = {
+		44F89739121902C3222704FC0907D43A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DC002A6B46F9D883AA0581420E56AC4 /* KNStartMovie.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KNStartMovie/KNStartMovie-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KNStartMovie/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KNStartMovie/KNStartMovie.modulemap";
-				PRODUCT_MODULE_NAME = KNStartMovie;
-				PRODUCT_NAME = KNStartMovie;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		41AE062F740E42679EB5B79A740CFD02 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DC002A6B46F9D883AA0581420E56AC4 /* KNStartMovie.xcconfig */;
+			baseConfigurationReference = 6E47420B32F757AE84018A69031D1236 /* KNStartMovie.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -715,6 +684,36 @@
 			};
 			name = Release;
 		};
+		F7B6413EB9FE2D2E2B0BF199D8F2BEEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E47420B32F757AE84018A69031D1236 /* KNStartMovie.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KNStartMovie/KNStartMovie-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KNStartMovie/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KNStartMovie/KNStartMovie.modulemap";
+				PRODUCT_MODULE_NAME = KNStartMovie;
+				PRODUCT_NAME = KNStartMovie;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -727,20 +726,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		7DBBFAFC20E77EC1E73898D6373B111B /* Build configuration list for PBXNativeTarget "KNStartMovie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7B6413EB9FE2D2E2B0BF199D8F2BEEB /* Debug */,
+				44F89739121902C3222704FC0907D43A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		82005AE40C76715644CBA0B8EE810CF0 /* Build configuration list for PBXNativeTarget "Pods-KNStartMovie_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				35410C571200464F4F55F0FB082400D8 /* Debug */,
 				6A4DD0A35700062AE08F92DEBB7E6551 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A89079D151957E328F32AD9B9C95B243 /* Build configuration list for PBXNativeTarget "KNStartMovie" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3E8EAA3113E1FC7149D6DBD49EE64D36 /* Debug */,
-				41AE062F740E42679EB5B79A740CFD02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
