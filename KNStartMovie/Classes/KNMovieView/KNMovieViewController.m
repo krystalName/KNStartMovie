@@ -105,7 +105,6 @@
 
 - (void)enterMainAction:(UIButton *)btn {
     
-    self.VC  = [[UIViewController alloc]init];
-    self.view.window.rootViewController = self.VC;
+    self.view.window.rootViewController = self.rootVC;
 }
 @end

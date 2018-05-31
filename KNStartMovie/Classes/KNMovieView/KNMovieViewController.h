@@ -16,6 +16,6 @@
 @property(nonatomic, strong)NSURL *movieURL;
 
 
-@property(nonatomic, strong)UIViewController *VC;
+@property(nonatomic, strong)UIViewController *rootVC;
 
 @end
